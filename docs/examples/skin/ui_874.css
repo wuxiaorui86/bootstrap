@@ -1,0 +1,22 @@
+.lianyq {
+  background: #fceff1;
+  border-top: 3px solid #a22e43;
+}
+.lianyq li:hover {
+  border-color: #d23856;
+}
+.lianyq li .lianyi-price {
+  background-color: #a22e43;
+}
+.sm-cat-a1 {
+  border-color: #d23856;
+}
+.sm-cat-a1 .item a:hover {
+  color: #d23856;
+}
+.sm-cat-a1 .item a.highlight {
+  color: #d23856 !important;
+}
+img {
+  vertical-align: middle;
+}
