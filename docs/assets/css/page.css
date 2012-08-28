@@ -1,0 +1,21 @@
+body {
+	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+}
+.skinLevels span{
+	width:28px;
+	height:28px;
+	display:inline-block;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.form-horizontal .controls {
+	margin-left: 110px;
+}
+.form-horizontal .control-label {
+	width: 100px;
+}
+.form-horizontal select{
+	width:135px;
+	height: 110px;
+}

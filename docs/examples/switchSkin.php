@@ -3,30 +3,11 @@
   <head>
     <meta charset="gbk">
     <title>Bootstrap, from Twitter</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Le styles -->
     <link href="../assets/css/bootstrap.css" rel="stylesheet">
+	<link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
     <link href="../assets/css/smoke.css" rel="stylesheet">
-    <style>
-      body {
-        padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
-      }
-	  .skinLevels span{
-		width:28px;
-		height:28px;
-		display:inline-block;
-		border-radius: 3px;
-	  }
-    </style>
-    <link href="../assets/css/bootstrap-responsive.css" rel="stylesheet">
-
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
-    <!-- Le fav and touch icons -->
-    <link rel="shortcut icon" href="../assets/ico/favicon.ico">
+    <link href="../assets/css/page.css" rel="stylesheet">
   </head>
   <body>
 <div class="navbar navbar-fixed-top">
@@ -76,173 +57,39 @@
 <table id="colorTable" class="table">
 	<thead>
 		<tr style="font-size:14px;">
-			<th>#</th>
-			<th>皮肤名称</th>
-			<th>色板</th>
-			<th>市场</th>
-			<th>操作</th>
+			<th>#</th><th>皮肤名称</th><th>色板</th><th>市场</th><th>操作</th>
 		</tr>
 	</thead>
-	<tbody>
-		<tr>
-			<td class="sequence"><span class="badge">1</span></td>
-			<td class="skinName"><span class="badge badge-success">女人</span></td>
-			<td class="skinLevels">
-				<span class="level1" data-original-title="#A22E43" style="background:#A22E43"></span>
-				<span class="level2" data-original-title="#D23856" style="background:#D23856"></span>
-				<span class="level3" data-original-title="#FFDFE5" style="background:#FFDFE5"></span>
-				<span class="level4" data-original-title="#FCEFF1" style="background:#FCEFF1"></span>
-			</td>
-			<td class="markets">
-				<span class="label label-info" data-original-title="874" data-id="874">女装</span>
-				<span class="label label-info" data-original-title="545" data-id="545">女鞋</span>
-				<span class="label label-info" data-original-title="556" data-id="556">女包</span>
-				<span class="label label-info" data-original-title="572" data-id="572">内衣</span>
-				<span class="label label-info" data-original-title="566" data-id="566">服饰配件</span>
-			</td>
-			<td class="btn-toolbar">
-				<div class="btn-group">
-				  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-					操作
-					<span class="caret"></span>
-				  </a>
-				  <ul class="dropdown-menu">
-					<li><a data-toggle="modal" href="#myModal"><s class="icon-pencil"></s> 编辑</a></li>
-					<li><a class="J_DeleteRow" href="#"><s class="icon-remove"></s> 删除</a></li>
-				  </ul>
-				</div>
-				<div class="btn-group">
-					<a href="" class="J_Preview btn btn-primary" data-id="874">Demo预览</a>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="sequence"><span class="badge">2</span></td>
-			<td class="skinName"><span class="badge badge-success">男人</span></td>
-			<td class="skinLevels">
-				<span class="level1" data-original-title="#2064A1" style="background:#2064A1"></span>
-				<span class="level2" data-original-title="#66AAE9" style="background:#66AAE9"></span>
-				<span class="level3" data-original-title="#E4EBF5" style="background:#E4EBF5"></span>
-				<span class="level4" data-original-title="#F1F5F9" style="background:#F1F5F9"></span>
-			</td>
-			<td class="markets">
-				<span class="label label-info" data-original-title="553" data-id="553">男装</span>
-				<span class="label label-info" data-original-title="567" data-id="567">男鞋</span>
-				<span class="label label-info" data-original-title="792" data-id="792">男包</span>
-			</td>
-			<td class="btn-toolbar">
-				<div class="btn-group">
-				  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-					操作
-					<span class="caret"></span>
-				  </a>
-				  <ul class="dropdown-menu">
-					<li><a data-toggle="modal" href="#myModal"><s class="icon-pencil"></s> 编辑</a></li>
-					<li><a class="J_DeleteRow" href="#"><s class="icon-remove"></s> 删除</a></li>
-				  </ul>
-				</div>
-				<div class="btn-group">
-					<a href="" class="J_Preview btn btn-primary" data-id="553">Demo预览</a>
-				</div>
-			</td>
-		</tr>
-		<tr>
-			<td class="sequence"><span class="badge">3</span></td>
-			<td class="skinName"><span class="badge badge-success">运动</span></td>
-			<td class="skinLevels">
-				<span class="level1" data-original-title="#43740D" style="background:#43740D"></span>
-				<span class="level2" data-original-title="#91B566" style="background:#91B566"></span>
-				<span class="level3" data-original-title="#ECF3E6" style="background:#ECF3E6"></span>
-				<span class="level4" data-original-title="#F4F8EF" style="background:#F4F8EF"></span>
-			</td>
-			<td class="markets">
-				<span class="label label-info" data-original-title="944" data-id="944">运动</span>
-			</td>
-			<td class="btn-toolbar">
-				<div class="btn-group">
-				  <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
-					操作
-					<span class="caret"></span>
-				  </a>
-				  <ul class="dropdown-menu">
-					<li><a data-toggle="modal" href="#myModal"><s class="icon-pencil"></s> 编辑</a></li>
-					<li><a class="J_DeleteRow" href="#"><s class="icon-remove"></s> 删除</a></li>
-				  </ul>
-				</div>
-				<div class="btn-group">
-					<a href="" class="J_Preview btn btn-primary" data-id="944">Demo预览</a>
-				</div>
-			</td>
-		</tr>
-	</tbody>
+	<tbody></tbody>
 	<tfoot>
 		<tr>
 			<td colspan="5">
 				<div class="btn-group span4">
-					<a data-toggle="modal" href="#myModal" class="btn btn-primary">创建皮肤</a>
-					<a id="J_CreateColorPan" href="#" class="btn btn-danger">更新皮肤文件</a>
+					<a id="J_CreateSkin" href="#myModal" class="btn btn-primary">创建皮肤</a>
+					<a id="J_CreateColorFile" href="#" class="btn btn-danger">更新皮肤文件</a>
 				</div>
 			</td>
 		</tr>
 	</tfoot>
 </table>
 
-
-<div class="modal hide fade" id="myModal">
+<div class="modal hide fade" id="myModal" style="overflow:hidden;">
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal">×</button>
     <h3>皮肤信息</h3>
   </div>
-  <div class="modal-body">
-    <form class="form-horizontal">
-        <fieldset>
-          <div class="control-group">
-            <label class="control-label" for="input01">皮肤名称：</label>
-            <div class="controls">
-              <input type="text" class="input-medium" id="input01" placeholder="比如：女人，男人">
-            </div>
-          </div>
-		  <div class="control-group">
-            <label class="control-label" for="input02">皮肤颜色：</label>
-            <div class="controls">
-              <input type="text" class="input-mini" id="input02" placeholder="level1">
-              <input type="text" class="input-mini" placeholder="level2">
-              <input type="text" class="input-mini" placeholder="level3">
-              <input type="text" class="input-mini" placeholder="level4">
-            </div>
-          </div>
-          <div class="control-group">
-            <label class="control-label" for="select01">市场选择：</label>
-            <div class="controls">
-              <select multiple="multiple" id="select01" style="width:135px;height: 110px;">
-                <option value="874">女装</option>
-                <option value="545">女鞋</option>
-                <option value="556">女包</option>
-                <option value="572">内衣</option>
-                <option value="566">服饰配件</option>
-                <option value="553">男装</option>
-                <option value="567">男包</option>
-                <option value="792">男鞋</option>
-              </select>
-			  <span style="display:inline-block;vertical-align: middle;">
-				  <span data-from="select01" data-to="select02" class="J_SelectMove icon-arrow-right" style="cursor:pointer"></span><br/>
-				  <span data-from="select02" data-to="select01" class="J_SelectMove icon-arrow-left" style="cursor:pointer"></span>
-			  </span>
-			  <select multiple="multiple" id="select02" style="width:135px;height: 110px;"></select>
-            </div>
-          </div>
-        </fieldset>
-      </form>
-  </div>
+  <div class="modal-body"></div>
   <div class="modal-footer" style="text-align: center;">
 	<a href="#" class="btn btn-primary">确定</a>
     <a href="#" class="btn" data-dismiss="modal">关闭</a>    
   </div>
 </div>
 
+<?php include("template.php");?>
+<!-- demo -->
 <h2>DEMO</h2>
 <iframe id="J_DemoIframe" scrolling="no" frameborder="0" src="items.php?marketId=874" width="1150" height="300"></iframe>
-
+<!-- /demo -->
 
 </div> <!-- /container -->
 
@@ -265,33 +112,92 @@
 <script src="../assets/js/bootstrap-carousel.js"></script>
 <script src="../assets/js/bootstrap-typeahead.js"></script>
 <script src="../assets/js/smoke.min.js"></script>
+<script src="../assets/js/jquery.tmpl.js"></script>
+<script src="marketId.js"></script>
 <script>
-$('*').tooltip();
+(function ($) {
+	var skinData;
+    function ColorSwitcher() {
+        this.init();
+    }
+    ColorSwitcher.prototype = {
+        init: function () {
+            this.getData();
+            this._bind();
+        },
+        _bind: function () {
+            this._bindPreview();
+            this._bindDeleteRow();
+			this._bindEditRow();
+            this._bindMarketSelect();
+            this._bindCreateFile();
+			this._bindCreateSkin();
+        },
+        _bindPreview: function () {
+            $(document).delegate('.J_Preview', 'click', function (e) {
+                e.preventDefault();
+                var id = $(this).attr('data-id');
+                var iframe = $('#J_DemoIframe');
+                iframe[0].src = "items.php?marketId=" + id + "&t=" + Math.random();
+            });
+        },
+        _bindDeleteRow: function () {
+            $(document).delegate('.J_DeleteRow', 'click', function (e) {
+                e.preventDefault();
+                $(this).parents('tr').remove();
+            });
+        },
+		_bindEditRow: function () {
+            $(document).delegate('.J_EditRow', 'click', function (e) {
+                e.preventDefault();
+				var index = $(this).attr('data-index');
+                $('#myModal .modal-body').html($('#J_CreateSkinForm').tmpl(skinData[index])).attr('data-index',index);
+				$('#myModal').modal('show');
+            });
+        },
+        _bindMarketSelect: function () {
+            $(document).delegate('.J_SelectMove', 'click', function (e) {
+                $("#" + $(this).attr('data-from')).children('option:selected').removeAttr('selected').appendTo($("#" + $(this).attr('data-to')))
+            });
+        },
+        _bindCreateFile: function () {
+            $(document).delegate('#J_CreateColorFile', 'click', function (e) {
+                e.preventDefault();
+                smoke.confirm('确定要更新皮肤?', function (e) {
+                    if (e) {
+                        smoke.alert('皮肤更新成功');
+                    }
+                });
+            });
+        },
+		_bindCreateSkin: function () {
+            $(document).delegate('#J_CreateSkin', 'click', function (e) {
+                e.preventDefault();
+                $('#myModal .modal-body').html($('#J_CreateSkinForm').tmpl({
+					"levels" : [{}, {}, {}, {}, {}]
+				})).attr('data-index',skinData.length);
+				$('#myModal').modal('show');
+            });
+        },
+        getData: function () {
+            $.ajax({
+                url: 'data.js',
+                dataType: 'json',
+                success: function (data) {
+					skinData = data;
+                    $('#J_SkinRow').tmpl({
+                        data: data
+                    }).appendTo("#colorTable tbody");
+                    $('[data-original-title]').tooltip();
+                }
+            });
+        }
+    }
 
-$('.J_Preview').click(function(e){
-	e.preventDefault();
-	var id = $(this).attr('data-id');
-	var iframe = $('#J_DemoIframe');
-	iframe[0].src="items.php?marketId="+id+"&t="+Math.random();
-});
+    new ColorSwitcher();
+})(jQuery);
 
-$('.J_DeleteRow').click(function(e){
-	e.preventDefault();
-	$(this).parents('tr').remove();
-});
 
-$('.J_SelectMove').click(function(e){
-	$("#"+$(this).attr('data-from')).children('option:selected').removeAttr('selected').appendTo($("#"+$(this).attr('data-to')))
-});
-
-$('#J_CreateColorPan').click(function(e){
-	e.preventDefault();
-	smoke.confirm('确定要更新皮肤?',function(e){
-		if (e){
-			smoke.alert('皮肤更新成功');
-		}
-	});
-});
 </script>
 </body>
 </html>
